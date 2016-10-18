@@ -1,0 +1,6 @@
+github "MengTo/Spring" "swift3"
+github "SnapKit/SnapKit" ~> 3.0.0
+github "hemantasapkota/GCDTimer" "swift3"
+github "hemantasapkota/MRProgress" "master"
+github "hemantasapkota/OpenSansSwift" "swift3"
+
