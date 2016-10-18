@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1534101DB68C3200FE26E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15340F1DB68C3200FE26E2 /* AppDelegate.swift */; };
+		2E1534121DB68C3200FE26E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1534111DB68C3200FE26E2 /* ViewController.swift */; };
+		2E1534151DB68C3200FE26E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1534131DB68C3200FE26E2 /* Main.storyboard */; };
+		2E1534171DB68C3200FE26E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1534161DB68C3200FE26E2 /* Assets.xcassets */; };
+		2E15341A1DB68C3200FE26E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1534181DB68C3200FE26E2 /* LaunchScreen.storyboard */; };
+		2E1534231DB68EED00FE26E2 /* SwiftListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534221DB68EED00FE26E2 /* SwiftListView.framework */; };
+		2E15342A1DB690E100FE26E2 /* GCDTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534251DB690E100FE26E2 /* GCDTimer.framework */; };
+		2E15342B1DB690E100FE26E2 /* MRProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534261DB690E100FE26E2 /* MRProgress.framework */; };
+		2E15342C1DB690E100FE26E2 /* OpenSansSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534271DB690E100FE26E2 /* OpenSansSwift.framework */; };
+		2E15342D1DB690E100FE26E2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534281DB690E100FE26E2 /* SnapKit.framework */; };
+		2E15342E1DB690E100FE26E2 /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534291DB690E100FE26E2 /* Spring.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E15340C1DB68C3200FE26E2 /* SwiftListViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftListViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E15340F1DB68C3200FE26E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E1534111DB68C3200FE26E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E1534141DB68C3200FE26E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E1534161DB68C3200FE26E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E1534191DB68C3200FE26E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E15341B1DB68C3200FE26E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E1534221DB68EED00FE26E2 /* SwiftListView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftListView.framework; path = Carthage/Build/iOS/SwiftListView.framework; sourceTree = "<group>"; };
+		2E1534251DB690E100FE26E2 /* GCDTimer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GCDTimer.framework; path = Carthage/Build/iOS/GCDTimer.framework; sourceTree = "<group>"; };
+		2E1534261DB690E100FE26E2 /* MRProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MRProgress.framework; path = Carthage/Build/iOS/MRProgress.framework; sourceTree = "<group>"; };
+		2E1534271DB690E100FE26E2 /* OpenSansSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenSansSwift.framework; path = Carthage/Build/iOS/OpenSansSwift.framework; sourceTree = "<group>"; };
+		2E1534281DB690E100FE26E2 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		2E1534291DB690E100FE26E2 /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = Carthage/Build/iOS/Spring.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E1534091DB68C3200FE26E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E15342A1DB690E100FE26E2 /* GCDTimer.framework in Frameworks */,
+				2E15342B1DB690E100FE26E2 /* MRProgress.framework in Frameworks */,
+				2E15342C1DB690E100FE26E2 /* OpenSansSwift.framework in Frameworks */,
+				2E15342D1DB690E100FE26E2 /* SnapKit.framework in Frameworks */,
+				2E15342E1DB690E100FE26E2 /* Spring.framework in Frameworks */,
+				2E1534231DB68EED00FE26E2 /* SwiftListView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1534031DB68C3200FE26E2 = {
+			isa = PBXGroup;
+			children = (
+				2E15340E1DB68C3200FE26E2 /* SwiftListViewExample */,
+				2E15340D1DB68C3200FE26E2 /* Products */,
+				2E1534211DB68EEC00FE26E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2E15340D1DB68C3200FE26E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E15340C1DB68C3200FE26E2 /* SwiftListViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E15340E1DB68C3200FE26E2 /* SwiftListViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				2E15340F1DB68C3200FE26E2 /* AppDelegate.swift */,
+				2E1534111DB68C3200FE26E2 /* ViewController.swift */,
+				2E1534131DB68C3200FE26E2 /* Main.storyboard */,
+				2E1534161DB68C3200FE26E2 /* Assets.xcassets */,
+				2E1534181DB68C3200FE26E2 /* LaunchScreen.storyboard */,
+				2E15341B1DB68C3200FE26E2 /* Info.plist */,
+			);
+			path = SwiftListViewExample;
+			sourceTree = "<group>";
+		};
+		2E1534211DB68EEC00FE26E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E1534251DB690E100FE26E2 /* GCDTimer.framework */,
+				2E1534261DB690E100FE26E2 /* MRProgress.framework */,
+				2E1534271DB690E100FE26E2 /* OpenSansSwift.framework */,
+				2E1534281DB690E100FE26E2 /* SnapKit.framework */,
+				2E1534291DB690E100FE26E2 /* Spring.framework */,
+				2E1534221DB68EED00FE26E2 /* SwiftListView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E15340B1DB68C3200FE26E2 /* SwiftListViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E15341E1DB68C3200FE26E2 /* Build configuration list for PBXNativeTarget "SwiftListViewExample" */;
+			buildPhases = (
+				2E1534081DB68C3200FE26E2 /* Sources */,
+				2E1534091DB68C3200FE26E2 /* Frameworks */,
+				2E15340A1DB68C3200FE26E2 /* Resources */,
+				2E1534241DB6907F00FE26E2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftListViewExample;
+			productName = SwiftListViewExample;
+			productReference = 2E15340C1DB68C3200FE26E2 /* SwiftListViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E1534041DB68C3200FE26E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hemanta Sapkota";
+				TargetAttributes = {
+					2E15340B1DB68C3200FE26E2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E1534071DB68C3200FE26E2 /* Build configuration list for PBXProject "SwiftListViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E1534031DB68C3200FE26E2;
+			productRefGroup = 2E15340D1DB68C3200FE26E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E15340B1DB68C3200FE26E2 /* SwiftListViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E15340A1DB68C3200FE26E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E15341A1DB68C3200FE26E2 /* LaunchScreen.storyboard in Resources */,
+				2E1534171DB68C3200FE26E2 /* Assets.xcassets in Resources */,
+				2E1534151DB68C3200FE26E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E1534241DB6907F00FE26E2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftListView.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/GCDTimer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MRProgress.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OpenSansSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Spring.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E1534081DB68C3200FE26E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1534121DB68C3200FE26E2 /* ViewController.swift in Sources */,
+				2E1534101DB68C3200FE26E2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E1534131DB68C3200FE26E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E1534141DB68C3200FE26E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E1534181DB68C3200FE26E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E1534191DB68C3200FE26E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E15341C1DB68C3200FE26E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E15341D1DB68C3200FE26E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E15341F1DB68C3200FE26E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SwiftListViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laex.SwiftListViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2E1534201DB68C3200FE26E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = SwiftListViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.laex.SwiftListViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E1534071DB68C3200FE26E2 /* Build configuration list for PBXProject "SwiftListViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E15341C1DB68C3200FE26E2 /* Debug */,
+				2E15341D1DB68C3200FE26E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E15341E1DB68C3200FE26E2 /* Build configuration list for PBXNativeTarget "SwiftListViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E15341F1DB68C3200FE26E2 /* Debug */,
+				2E1534201DB68C3200FE26E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E1534041DB68C3200FE26E2 /* Project object */;
+}
