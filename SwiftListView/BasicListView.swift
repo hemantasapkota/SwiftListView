@@ -65,16 +65,16 @@ open class BasicListView : UIView, UITableViewDataSource, UITableViewDelegate, U
     var tableView: UITableView!
     
     /* Handler */
-    var onSelection: ((String) -> Void)!
+    open var onSelection: ((String) -> Void)!
     
     /* Selected string */
-    var selectedText: String!
+    open var selectedText: String!
     
     /* Tap Handler when there are no items */
     var tapHandler: UITapGestureRecognizer!
     
     fileprivate var _showProgress: Bool = false
-    var ShowProgress: Bool {
+    open var ShowProgress: Bool {
         get { return _showProgress }
         
         set {
@@ -87,7 +87,7 @@ open class BasicListView : UIView, UITableViewDataSource, UITableViewDelegate, U
     
     /* View Title */
     var _viewTitle: String!
-    var VewTitle: String {
+    open var VewTitle: String {
         get {
             return _viewTitle
         }
@@ -98,7 +98,7 @@ open class BasicListView : UIView, UITableViewDataSource, UITableViewDelegate, U
     
     /* List Items */
     var _items: [String]!
-    var Items: [String] {
+    open var Items: [String] {
         get {
             return _items
         }
@@ -131,7 +131,7 @@ open class BasicListView : UIView, UITableViewDataSource, UITableViewDelegate, U
     }
     
     /* Items Loader */
-    var ItemsLoader: ( (_ done:(([String]) -> Void)?) -> Void)? {
+    open var ItemsLoader: ( (_ done:(([String]) -> Void)?) -> Void)? {
         get { return nil }
         
         set {
@@ -142,7 +142,7 @@ open class BasicListView : UIView, UITableViewDataSource, UITableViewDelegate, U
         }
     }
     
-    init(viewTitle: String, highlighted:String) {
+    public init(viewTitle: String, highlighted:String) {
         super.init(frame: UIScreen.main.bounds)
         
         selectedText = highlighted
@@ -203,7 +203,7 @@ open class BasicListView : UIView, UITableViewDataSource, UITableViewDelegate, U
         self.setNeedsLayout()
     }
     
-    func closeView() {
+    open func closeView() {
         self.removeFromSuperview()
     }
     
@@ -245,7 +245,7 @@ open class BasicListView : UIView, UITableViewDataSource, UITableViewDelegate, U
         }
     }
     
-    func show() {
+    open func show() {
         let rv = UIApplication.shared.keyWindow?.subviews.last
         rv!.addSubview(self)
         
