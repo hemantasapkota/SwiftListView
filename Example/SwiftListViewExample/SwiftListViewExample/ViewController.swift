@@ -24,7 +24,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onButtonClicked() {
-        let listView = BasicListView(coder: nil)
+        let listView = BasicListView(viewTitle: "Hello", highlighted: "Hi")
+        listView.Items = ["Item1", "Item2", "Item3", "Item4"]
+        listView.show()
     }
 
 }
