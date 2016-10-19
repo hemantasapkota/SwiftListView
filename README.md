@@ -14,7 +14,7 @@ Collection of simple &amp; neutral list views for IOS written in Swift.
 
 ![Screenshot](ss1.png)
 
-### Usage
+### Usage - Static List
 
 ```swift
 var highlighted = "Himalayan Cat"
@@ -32,4 +32,23 @@ listView.onSelection = { selected in
 
 listView.show()
 
+```
+
+### Usage - Dynamic List
+
+```swift
+let listView = BasicListView(viewTitle: "", highlighted: "")
+
+listView.ShowProgress = true
+
+listView.ItemsLoader = { (completion) in
+    // Load the data asynchronously and call the completion block with the returned array
+    // Mock example
+    GCDTimer.delay(0.8, block: {
+        listView.ShowProgress = false
+        completion!(["Dog Breed", "Labrador Retriever", "German Shepherd"))
+    })
+}
+
+listView.show()
 ```
