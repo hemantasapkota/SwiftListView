@@ -13,7 +13,7 @@ Collection of simple &amp; neutral list views for IOS written in Swift.
 * Add ```github "hemantasapkota/SwiftListView"``` to your ```cartfile```
 * Execute ```carthage update```
 
-**Note**: SwiftListView includes other libraries as dependencies. Carthage will pull and build them as well. You must include all the dependencies to your project. 
+**Note**: SwiftListView includes other libraries as dependencies. Carthage will pull and build them. You must include all the dependencies to your project. 
 
 ## List Views
 
