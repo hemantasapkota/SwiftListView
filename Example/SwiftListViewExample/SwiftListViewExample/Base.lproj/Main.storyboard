@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,21 +20,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7z-E9-DDo">
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="List Cat Breeds"/>
                                 <connections>
-                                    <action selector="onButtonClicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="XTF-6T-O37"/>
+                                    <action selector="onBasicListViewBtnClicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="jc0-n7-drA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTm-eD-pVZ">
+                                <state key="normal" title="List Dog Breeds"/>
+                                <connections>
+                                    <action selector="onBasicListViewBtn2Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="EgV-ra-yLj"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="g7z-E9-DDo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="H5o-jd-Pa0"/>
-                            <constraint firstItem="g7z-E9-DDo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mkI-ev-cgi"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="trailing" secondItem="vTm-eD-pVZ" secondAttribute="trailing" id="276-oP-3xh"/>
+                            <constraint firstItem="vTm-eD-pVZ" firstAttribute="top" secondItem="g7z-E9-DDo" secondAttribute="bottom" constant="58" id="ASr-4y-ocx"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="leading" secondItem="vTm-eD-pVZ" secondAttribute="leading" id="F7I-eD-9gZ"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ki2-S1-6Nb"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232" id="b1b-7K-gf3"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="fuh-FG-AYg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="basicListViewBtn" destination="g7z-E9-DDo" id="fAP-Wh-0Z6"/>
+                        <outlet property="basicListViewBtn2" destination="vTm-eD-pVZ" id="a5x-Fp-n7T"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="80.50974512743629"/>
         </scene>
     </scenes>
 </document>
