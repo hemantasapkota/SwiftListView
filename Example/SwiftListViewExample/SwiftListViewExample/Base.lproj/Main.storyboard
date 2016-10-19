@@ -20,13 +20,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7z-E9-DDo">
-                                <state key="normal" title="List Cat Breeds"/>
+                                <state key="normal" title="Cat Breeds"/>
                                 <connections>
                                     <action selector="onBasicListViewBtnClicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="jc0-n7-drA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTm-eD-pVZ">
-                                <state key="normal" title="List Dog Breeds"/>
+                                <state key="normal" title="Dog Breeds"/>
                                 <connections>
                                     <action selector="onBasicListViewBtn2Clicked" destination="BYZ-38-t0r" eventType="touchUpInside" id="EgV-ra-yLj"/>
                                 </connections>
@@ -34,12 +34,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="g7z-E9-DDo" firstAttribute="trailing" secondItem="vTm-eD-pVZ" secondAttribute="trailing" id="276-oP-3xh"/>
-                            <constraint firstItem="vTm-eD-pVZ" firstAttribute="top" secondItem="g7z-E9-DDo" secondAttribute="bottom" constant="58" id="ASr-4y-ocx"/>
-                            <constraint firstItem="g7z-E9-DDo" firstAttribute="leading" secondItem="vTm-eD-pVZ" secondAttribute="leading" id="F7I-eD-9gZ"/>
-                            <constraint firstItem="g7z-E9-DDo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ki2-S1-6Nb"/>
-                            <constraint firstItem="g7z-E9-DDo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="232" id="b1b-7K-gf3"/>
-                            <constraint firstItem="g7z-E9-DDo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="fuh-FG-AYg"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0MU-4B-qqy"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="centerX" secondItem="vTm-eD-pVZ" secondAttribute="centerX" id="2PM-72-YoM"/>
+                            <constraint firstItem="vTm-eD-pVZ" firstAttribute="top" secondItem="g7z-E9-DDo" secondAttribute="bottom" constant="8" symbolic="YES" id="7IH-za-KVL"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="8op-uX-F4l"/>
+                            <constraint firstItem="g7z-E9-DDo" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Vdw-c0-QZQ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1dM-Rb-gR1"/>
@@ -50,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446" y="90"/>
+            <point key="canvasLocation" x="1445.5999999999999" y="89.505247376311857"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aDg-8A-9LX">
