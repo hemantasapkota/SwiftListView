@@ -8,6 +8,13 @@ Collection of simple &amp; neutral list views for IOS written in Swift.
 * Works on both iPhone and iPad
 * Supports orientation change
 
+## Installation
+
+* Add ```github "hemantasapkota/SwiftListView"``` to your ```cartfile```
+* Execute ```carthage update```
+
+**Note**: SwiftListView includes other libraries as dependencies. Carthage will pull and build them as well. You must include all the dependencies to your project. 
+
 ## List Views
 
 ### BasicListView
@@ -52,3 +59,6 @@ listView.ItemsLoader = { (completion) in
 
 listView.show()
 ```
+
+### Author ###
+* [Hemanta Sapkota](https://twitter.com/ozhemanta) / [Blog](http://hemantasapkota.github.io/) / [Linked In](https://au.linkedin.com/in/hemantasapkota)
