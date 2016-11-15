@@ -21,7 +21,7 @@ open class GroupFilterButton : UIView {
     public var onSelection: ( (String) -> Void)?
     
     /* Selected Text */
-    public var SelectedText: String {
+    public var selectedText: String {
         get {
             return label.text!
         }
