@@ -71,8 +71,12 @@ class View : UIView {
         }
         addSubview(showCatBreed)
         showCatBreed.snp.makeConstraints { (make) in
+            
+            make.top.equalTo(self.snp.top).offset(50)
+            
             make.centerX.equalTo(self.snp.centerX)
-            make.centerY.equalTo(self.snp.centerY).offset(-60)
+//            make.centerY.equalTo(self.snp.centerY).offset(-60)
+            
             make.width.equalTo(200)
             make.height.equalTo(60)
         }
