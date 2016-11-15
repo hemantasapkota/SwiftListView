@@ -9,7 +9,7 @@
 import OpenSansSwift
 
 /* Group Filter Button */
-class GroupFilterButton : UIView {
+open class GroupFilterButton : UIView {
     
     /* Label */
     var label: UILabel!
@@ -87,7 +87,7 @@ class GroupFilterButton : UIView {
         onSelection(text!)
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required public init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 }
