@@ -7,6 +7,7 @@ Collection of simple &amp; neutral list views for IOS written in Swift.
 * Set static items or define a data loader
 * Works on both iPhone and iPad
 * Supports orientation change
+* Helper button ( GroupFilterButton )
 
 ## Installation
 
@@ -58,6 +59,51 @@ listView.ItemsLoader = { (completion) in
 }
 
 listView.show()
+```
+## Buttons
+
+### GroupFilterButton
+
+A simple custom button that pairs well with the list views.
+
+Example:
+```swift
+        var selectedCat = ""
+        
+        showCatBreed = GroupFilterButton()
+        showCatBreed.SelectedText = "Choose Cat Breed"
+        showCatBreed.onSelection = { selected in
+            let listView = BasicListView(viewTitle: "Cat Breeds", highlighted: selectedCat)
+            
+            listView.Items = ["American Bobtail", "American Curl", "American Shorthair", "Himalayan Cat"]
+            listView.onSelection = { selected in
+                self.showCatBreed.SelectedText = selected
+                selectedCat = selected
+            }
+            
+            listView.show()
+            
+        }
+```
+
+GroupFilterButton comes with default foreground and background colors, which can be customized.
+
+#### Change Background Color
+
+```swift
+showCatBreed.backgroundColor = UIColor()
+```
+
+#### Change Border Color
+
+```swift
+showCatBreed.layer.borderColor = UIColor(....).cgColor
+```
+
+#### Change Text Color
+
+```swift
+showCatBreed.label.textColor = UIColor(.....)
 ```
 
 ### Author ###
