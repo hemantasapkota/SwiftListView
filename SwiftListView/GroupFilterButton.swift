@@ -27,10 +27,10 @@ open class GroupFilterButton : UIView {
     var foregroundColor: UIColor?
     
     /* Handler */
-    var onSelection: ( (String) -> Void)!
+    public var onSelection: ( (String) -> Void)!
     
     /* Selected Text */
-    var SelectedText: String {
+    public var SelectedText: String {
         get {
             return label.text!
         }
@@ -39,7 +39,7 @@ open class GroupFilterButton : UIView {
         }
     }
     
-    init() {
+    public init() {
         super.init(frame: UIScreen.main.bounds)
         
         /* Some background settings */
