@@ -12,19 +12,10 @@ import OpenSansSwift
 open class GroupFilterButton : UIView {
     
     /* Label */
-    var label: UILabel!
+    public var label: UILabel!
     
     /* Button */
-    var button: UIButton!
-    
-    /* Font */
-    var font: UIFont?
-    
-    /* Background color */
-    var bgColor: UIColor?
-    
-    /* Foreground Color */
-    var foregroundColor: UIColor?
+    public var button: UIButton!
     
     /* Handler */
     public var onSelection: ( (String) -> Void)?
@@ -51,8 +42,6 @@ open class GroupFilterButton : UIView {
         
         /* Button */
         button = UIButton(type: UIButtonType.system)
-//        button.setBackgroundImage(GroupFilterButton.IMG, for: UIControlState())
-        
         button.addTarget(self, action: #selector(GroupFilterButton.onTap), for: UIControlEvents.touchUpInside)
         button.tintColor = UIColor.white
         addSubview(button)
@@ -70,7 +59,6 @@ open class GroupFilterButton : UIView {
         label.font = UIFont.openSansFontOfSize(13)
         label.numberOfLines = 1
         label.textColor = UIColor(rgba: "#85a5a0")
-        
         addSubview(label)
         label.snp.makeConstraints { (make) -> () in
             make.left.equalTo(off(10))
