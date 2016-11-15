@@ -27,7 +27,7 @@ open class GroupFilterButton : UIView {
     var foregroundColor: UIColor?
     
     /* Handler */
-    public var onSelection: ( (String) -> Void)!
+    public var onSelection: ( (String) -> Void)?
     
     /* Selected Text */
     public var SelectedText: String {
@@ -83,8 +83,10 @@ open class GroupFilterButton : UIView {
     }
     
     func onTap() {
-        let text = label.text?.trimmingCharacters(in: CharacterSet.whitespaces)
-        onSelection(text!)
+        if let handle = onSelection {
+            let text = label.text?.trimmingCharacters(in: CharacterSet.whitespaces)
+            handle(text!)
+        }
     }
     
     required public init(coder aDecoder: NSCoder) {
