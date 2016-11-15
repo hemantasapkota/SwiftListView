@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E1534101DB68C3200FE26E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E15340F1DB68C3200FE26E2 /* AppDelegate.swift */; };
 		2E1534121DB68C3200FE26E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1534111DB68C3200FE26E2 /* ViewController.swift */; };
-		2E1534151DB68C3200FE26E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1534131DB68C3200FE26E2 /* Main.storyboard */; };
 		2E1534171DB68C3200FE26E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E1534161DB68C3200FE26E2 /* Assets.xcassets */; };
 		2E15341A1DB68C3200FE26E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1534181DB68C3200FE26E2 /* LaunchScreen.storyboard */; };
 		2E1534231DB68EED00FE26E2 /* SwiftListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534221DB68EED00FE26E2 /* SwiftListView.framework */; };
@@ -24,7 +23,6 @@
 		2E15340C1DB68C3200FE26E2 /* SwiftListViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftListViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E15340F1DB68C3200FE26E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E1534111DB68C3200FE26E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E1534141DB68C3200FE26E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E1534161DB68C3200FE26E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E1534191DB68C3200FE26E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E15341B1DB68C3200FE26E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			children = (
 				2E15340F1DB68C3200FE26E2 /* AppDelegate.swift */,
 				2E1534111DB68C3200FE26E2 /* ViewController.swift */,
-				2E1534131DB68C3200FE26E2 /* Main.storyboard */,
 				2E1534161DB68C3200FE26E2 /* Assets.xcassets */,
 				2E1534181DB68C3200FE26E2 /* LaunchScreen.storyboard */,
 				2E15341B1DB68C3200FE26E2 /* Info.plist */,
@@ -158,7 +155,6 @@
 			files = (
 				2E15341A1DB68C3200FE26E2 /* LaunchScreen.storyboard in Resources */,
 				2E1534171DB68C3200FE26E2 /* Assets.xcassets in Resources */,
-				2E1534151DB68C3200FE26E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,14 +195,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2E1534131DB68C3200FE26E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E1534141DB68C3200FE26E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2E1534181DB68C3200FE26E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -364,6 +352,7 @@
 				2E1534201DB68C3200FE26E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
