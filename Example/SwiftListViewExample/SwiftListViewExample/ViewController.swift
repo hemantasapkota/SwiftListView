@@ -56,13 +56,13 @@ class View : UIView {
         var selectedCat = ""
         
         showCatBreed = GroupFilterButton()
-        showCatBreed.SelectedText = "Choose Cat Breed"
+        showCatBreed.selectedText = "Choose Cat Breed"
         showCatBreed.onSelection = { selected in
             let listView = BasicListView(viewTitle: "Cat Breeds", highlighted: selectedCat)
             
             listView.Items = ["American Bobtail", "American Curl", "American Shorthair", "Himalayan Cat"]
             listView.onSelection = { selected in
-                self.showCatBreed.SelectedText = selected
+                self.showCatBreed.selectedText = selected
                 selectedCat = selected
             }
             
@@ -85,12 +85,12 @@ class View : UIView {
         var selectedDog = ""
         
         showDogBreed = GroupFilterButton()
-        showDogBreed.SelectedText = "Choose dog breed"
+        showDogBreed.selectedText = "Choose dog breed"
         showDogBreed.onSelection = { selected in
             let listView = BasicListView(viewTitle: "", highlighted: selectedDog)
             listView.ShowProgress = true
             listView.onSelection = { selected in
-                self.showDogBreed.SelectedText = selected
+                self.showDogBreed.selectedText = selected
                 selectedDog = selected
             }
             listView.ItemsLoader = { (completion) in

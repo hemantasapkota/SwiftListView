@@ -38,9 +38,9 @@ open class GroupFilterButton : UIView {
         self.layer.borderWidth = 0.5
         
         // #d8e3e2
-        self.layer.borderColor = UIColor(red: 216/255, green: 227/255, blue: 226/255, alpha: 0).cgColor
+        self.layer.borderColor = UIColor(red: 216/255, green: 227/255, blue: 226/255, alpha: 1).cgColor
         // #d8e3e2
-        self.layer.backgroundColor = UIColor(red: 216/255, green: 227/255, blue: 226/255, alpha: 0).cgColor
+        self.layer.backgroundColor = UIColor(red: 216/255, green: 227/255, blue: 226/255, alpha: 1).cgColor
         
         /* Button */
         button = UIButton(type: UIButtonType.system)
@@ -62,7 +62,7 @@ open class GroupFilterButton : UIView {
         label.numberOfLines = 1
         
 //        #85a5a0
-        label.textColor = UIColor(red: 133, green: 165, blue: 160, alpha: 0)
+        label.textColor = UIColor(red: 133, green: 165, blue: 160, alpha: 1)
         
         addSubview(label)
         label.snp.makeConstraints { (make) -> () in
