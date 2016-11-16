@@ -14,7 +14,6 @@
 		2E1533FF1DB682B200FE26E2 /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1533FC1DB682B200FE26E2 /* Spring.framework */; };
 		2E1534021DB6848700FE26E2 /* MRProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534011DB6848700FE26E2 /* MRProgress.framework */; };
 		2E8FE6CD1DDAC416001F89C9 /* GroupFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8FE6CC1DDAC416001F89C9 /* GroupFilterButton.swift */; };
-		2E8FE6CF1DDAC86A001F89C9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8FE6CE1DDAC86A001F89C9 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		2E1533FC1DB682B200FE26E2 /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = Carthage/Build/iOS/Spring.framework; sourceTree = "<group>"; };
 		2E1534011DB6848700FE26E2 /* MRProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MRProgress.framework; path = Carthage/Build/iOS/MRProgress.framework; sourceTree = "<group>"; };
 		2E8FE6CC1DDAC416001F89C9 /* GroupFilterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFilterButton.swift; sourceTree = "<group>"; };
-		2E8FE6CE1DDAC86A001F89C9 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 				2E1533F01DB680DE00FE26E2 /* Info.plist */,
 				2E1533F71DB680F200FE26E2 /* BasicListView.swift */,
 				2E8FE6CC1DDAC416001F89C9 /* GroupFilterButton.swift */,
-				2E8FE6CE1DDAC86A001F89C9 /* Extensions.swift */,
 			);
 			path = SwiftListView;
 			sourceTree = "<group>";
@@ -188,7 +185,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E1533F81DB680F200FE26E2 /* BasicListView.swift in Sources */,
-				2E8FE6CF1DDAC86A001F89C9 /* Extensions.swift in Sources */,
 				2E8FE6CD1DDAC416001F89C9 /* GroupFilterButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

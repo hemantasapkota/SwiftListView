@@ -37,8 +37,10 @@ open class GroupFilterButton : UIView {
         self.layer.cornerRadius = 4
         self.layer.borderWidth = 0.5
         
-        self.layer.borderColor = UIColor(rgba: "#d8e3e2").cgColor
-        self.backgroundColor = UIColor(rgba: "#d8e3e2")
+        // #d8e3e2
+        self.layer.borderColor = UIColor(red: 216/255, green: 227/255, blue: 226/255, alpha: 0).cgColor
+        // #d8e3e2
+        self.layer.backgroundColor = UIColor(red: 216/255, green: 227/255, blue: 226/255, alpha: 0).cgColor
         
         /* Button */
         button = UIButton(type: UIButtonType.system)
@@ -58,7 +60,10 @@ open class GroupFilterButton : UIView {
         label.lineBreakMode = NSLineBreakMode.byWordWrapping
         label.font = UIFont.openSansFontOfSize(13)
         label.numberOfLines = 1
-        label.textColor = UIColor(rgba: "#85a5a0")
+        
+//        #85a5a0
+        label.textColor = UIColor(red: 133, green: 165, blue: 160, alpha: 0)
+        
         addSubview(label)
         label.snp.makeConstraints { (make) -> () in
             make.left.equalTo(off(10))
