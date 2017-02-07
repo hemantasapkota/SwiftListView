@@ -14,6 +14,7 @@
 		2E1533FF1DB682B200FE26E2 /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1533FC1DB682B200FE26E2 /* Spring.framework */; };
 		2E1534021DB6848700FE26E2 /* MRProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1534011DB6848700FE26E2 /* MRProgress.framework */; };
 		2E8FE6CD1DDAC416001F89C9 /* GroupFilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8FE6CC1DDAC416001F89C9 /* GroupFilterButton.swift */; };
+		2EC6DE411DFD3F7E00E6F519 /* BasicInputViewDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC6DE401DFD3F7E00E6F519 /* BasicInputViewDialog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2E1533FC1DB682B200FE26E2 /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = Carthage/Build/iOS/Spring.framework; sourceTree = "<group>"; };
 		2E1534011DB6848700FE26E2 /* MRProgress.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MRProgress.framework; path = Carthage/Build/iOS/MRProgress.framework; sourceTree = "<group>"; };
 		2E8FE6CC1DDAC416001F89C9 /* GroupFilterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupFilterButton.swift; sourceTree = "<group>"; };
+		2EC6DE401DFD3F7E00E6F519 /* BasicInputViewDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicInputViewDialog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				2E1533EF1DB680DE00FE26E2 /* SwiftListView.h */,
 				2E1533F01DB680DE00FE26E2 /* Info.plist */,
 				2E1533F71DB680F200FE26E2 /* BasicListView.swift */,
+				2EC6DE401DFD3F7E00E6F519 /* BasicInputViewDialog.swift */,
 				2E8FE6CC1DDAC416001F89C9 /* GroupFilterButton.swift */,
 			);
 			path = SwiftListView;
@@ -137,6 +140,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2E1533E21DB680DE00FE26E2;
 			productRefGroup = 2E1533ED1DB680DE00FE26E2 /* Products */;
@@ -186,6 +190,7 @@
 			files = (
 				2E1533F81DB680F200FE26E2 /* BasicListView.swift in Sources */,
 				2E8FE6CD1DDAC416001F89C9 /* GroupFilterButton.swift in Sources */,
+				2EC6DE411DFD3F7E00E6F519 /* BasicInputViewDialog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +308,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/GCDTimer/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/MRProgress/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/OpenSansSwift/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SnapKit/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/Spring/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/GCDTimer/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/MRProgress/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/OpenSansSwift/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/SnapKit/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/Spring/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SwiftListView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -328,6 +345,18 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/GCDTimer/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/MRProgress/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/OpenSansSwift/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SnapKit/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/Spring/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/GCDTimer/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/MRProgress/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/OpenSansSwift/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/SnapKit/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Example/SwiftListViewExample/Carthage/Checkouts/SwiftListView/Carthage/Checkouts/Spring/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = SwiftListView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
